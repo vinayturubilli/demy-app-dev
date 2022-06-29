@@ -58,7 +58,7 @@
 						<outputDirectory>${basedir}/target/classes/static</outputDirectory>
 						<resources>
 							<resource>
-								<directory>frontend/build</directory>
+								<directory>UI/build</directory>
 							</resource>
 						</resources>
 					</configuration>
