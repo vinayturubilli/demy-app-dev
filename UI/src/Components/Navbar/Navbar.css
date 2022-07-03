@@ -11,7 +11,7 @@ nav {
     background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     position: relative;
 }
@@ -35,7 +35,6 @@ nav {
 
 
 @media screen and (max-width: 500px){
-
     .list {
         flex-direction: column;
         height: auto;

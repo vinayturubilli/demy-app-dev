@@ -28,9 +28,10 @@ export default function Navbar() {
     <nav>
       {(toggleMenu || screenWidth > 500) && (
       <ul className="list">
+       <li className="items">Home</li>
       <li className="items">Internships</li>
-      <li className="items">Courses</li>
-      <li className="items">Team</li>
+      <li className="items">About us</li>
+      <li className="items">Careers</li>
     </ul>
       )}
 
