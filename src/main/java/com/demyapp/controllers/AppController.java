@@ -9,6 +9,6 @@ public class AppController {
     @GetMapping(value = "/login")
     @ResponseStatus(value = HttpStatus.OK)
     public void login() {
-
+        System.out.println("login");
     }
 }
